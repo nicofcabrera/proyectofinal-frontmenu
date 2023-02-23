@@ -104,6 +104,7 @@
   margin-left: 0.8rem;
   font-size: 22px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
 }
 
 .modal-horarios,
@@ -113,6 +114,7 @@
   justify-content: center;
   height: 2rem;
   font-family: Arial, Helvetica, sans-serif;
+  color:black;
 }
 
 .horarios-dias {
@@ -120,6 +122,7 @@
   justify-content: space-between;
   height: 2rem;
   font-style: italic;
+  color:black;
 }
 
 .direccion {
@@ -127,6 +130,7 @@
   justify-content: center;
   height: 2rem;
   font-style: italic;
+  color:black;
 }
 
 .servicio {
@@ -134,6 +138,7 @@
   justify-content: space-evenly;
   height: 2rem;
   font-style: italic;
+  color:black;
 }
 
 @media (min-width: 0px) and (max-width: 576px) {

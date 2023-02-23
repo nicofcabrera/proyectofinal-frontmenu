@@ -16,7 +16,7 @@ const NavbarMenu = ({title}) => {
           <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog">
               <div className="modal-content">
-                <div className="modal-header">
+                <div className="modal-header bg-light">
                   <div className="modal-logo bg-secondary">
                     <img className='modal-logo' src='https://i.postimg.cc/qBZ5vFtY/Whats-App-Image-2023-02-09-at-02-15-12.jpg' alt=''></img>
                   </div>
@@ -71,8 +71,6 @@ const NavbarMenu = ({title}) => {
                     <p><i className="bi bi-check-lg"></i> Take away</p>
                     <p><i className="bi bi-check-lg"></i> Delivery</p>
                   </div>               
-                </div>
-                <div className="modal-footer">                
                 </div>
               </div>
             </div>
