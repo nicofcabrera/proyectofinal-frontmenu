@@ -1,33 +1,20 @@
-import axios from 'axios'
+// import axios from 'axios'
 import React from 'react'
+import TablaUsers from '../TablaUsers/TablaUsers'
 
 const PruebasBackend = () => {
-
-  const getDatos = async () => {
-    const { data } = await axios.get('http://localhost:8000/obtener-info')
-    console.log(data)
-   
-  }
-
-  const enviarData = () => {
-    axios.post('http://localhost:8000/enviar-info', {
-      nombre: 'Nicolas',
-      apellido: 'Cabre'
-    })
-      .then((response) => {
-      console.log(response.data)
-    })
-  }
-
-  // getDatos()
+  
 
   return (
-    <>
-      <h1 className='text-center'>Pruebas Backend</h1>
-      <div className="d-flex justify-content-center gap-1">
-      <button className='btn btn-info' onClick={getDatos}>Obtener info</button>
-      <button className='btn btn-info' onClick={enviarData}>Enviar info</button>
+    <>  
+      <h1 className='text-center'>Panel de control</h1>
+      <div className='container'>
+        <h2>Usuarios</h2>
+        <TablaUsers />
+        <h2>Pedidos</h2>
+        <h2>Menu</h2>
       </div>
+
     </>
   )
 }
